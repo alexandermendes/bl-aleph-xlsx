@@ -1,7 +1,7 @@
 {
     "name": "bl-aleph-xlsx",
     "version": "0.0.1",
-    "description": "An interface for creating BL Aleph load spreadsheets.",
+    "description": "An interface for creating Aleph metadata spreadsheets.",
     "main": "index.html",
     "repository": {
         "type": "git",
