@@ -1,0 +1,13 @@
+# Site settings
+title: BL Aleph Xlsx
+author: Alexander Mendes
+description: An interface for creating Aleph metadata spreadsheets.
+repository: alexandermendes/bl-aleph-xlsx
+
+# Build settings
+exclude:
+  - 'test/'
+  - 'node_modules/'
+  - 'package.json'
+  - 'LICENSE'
+  - 'README.md'
