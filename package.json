@@ -1,17 +1,28 @@
 {
-    "name":"bl-aleph-xlsx",
-    "version":"0.0.1",
-    "description":"An interface for creating BL Aleph load spreadsheets.",
-    "main":"index.html",
-    "repository":{
-        "type":"git",
-        "url":"https://github.com/alexandermendes/bl-aleph-xlsx"
+    "name": "bl-aleph-xlsx",
+    "version": "0.0.1",
+    "description": "An interface for creating BL Aleph load spreadsheets.",
+    "main": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexandermendes/bl-aleph-xlsx"
     },
-    "license":"MIT",
-    "bugs":{
-        "url":"https://github.com/alexandermendes/bl-aleph-xlsx/issues"
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/alexandermendes/bl-aleph-xlsx/issues"
     },
-    "dependencies":{
+    "dependencies": {
+        "jquery": "^3.1.1",
+        "db.js": "^0.15.0",
         "xlsx": "^0.8.0"
+    },
+    "devDependencies": {
+        "webpack": "^1.14.0",
+        "babel-core": "^6.21.0",
+        "babel-loader": "^6.2.10",
+        "babel-preset-es2015": "^6.18.0"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.config.js"
     }
 }
