@@ -1,0 +1,17 @@
+{
+    "name":"bl-aleph-xlsx",
+    "version":"0.0.1",
+    "description":"An interface for creating BL Aleph load spreadsheets.",
+    "main":"index.html",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/alexandermendes/bl-aleph-xlsx"
+    },
+    "license":"MIT",
+    "bugs":{
+        "url":"https://github.com/alexandermendes/bl-aleph-xlsx/issues"
+    },
+    "dependencies":{
+        "xlsx": "^0.8.0"
+    }
+}
